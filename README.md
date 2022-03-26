@@ -1,5 +1,5 @@
 Original App Design Project - README Template
-APP_NAME_HERE
+Receipt Organizer
 Table of Contents
 Overview
 Product Spec
@@ -22,32 +22,48 @@ Product Spec
 1. User Stories (Required and Optional)
 Required Must-have Stories
 
-[fill in your required user stories here]
+User has access to camera roll
+User can take picture of receipts
+User can crop pictures
+An API that extracts certain keywords to
+discern what category it should be placed in
+User can login
+User can create an account
+User can acesss their past receipts
 …
 Optional Nice-to-have Stories
+User can analyze multiple receipts at once
+User can 
 
 [fill in your required user stories here]
 …
 2. Screen Archetypes
-[list first screen here]
-[list associated required story here]
-…
-[list second screen here]
-[list associated required story here]
+Login Screen
+  User can log in
+Registration Screen
+  User can register an account
+Camera Screen
+  User can access their camera to take photo of receipt
+  User can upload photo of receipts
+Home Screen
+  User can see the differnt categories that their receipts are categorized in
+  User can view how many receipts they've had this month
+  User can view data that tracks where they are spending the most money
+More detailed Information
+  User can click on a category to view more in-depth statistics
+
 …
 3. Navigation
 Tab Navigation (Tab to Screen)
+Home Screen category buttons =>
+More detailed information
 
-[fill out your first tab]
-[fill out your second tab]
-[fill out your third tab]
 Flow Navigation (Screen to Screen)
+Register Account =>
+Login
 
-[list first screen here]
-[list screen navigation here]
-…
-[list second screen here]
-[list screen navigation here]
+Login =>
+Home Screen
 …
 Wireframes
 [Add picture of your hand sketched wireframes in this section]
