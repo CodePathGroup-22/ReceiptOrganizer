@@ -7,7 +7,7 @@ Wireframes
 Schema
 Overview
 Description
-[Description of your app]
+This app is a receipt organizer that will be able to analyze receipts and place them into different categories such as (Eating, Shopping, Travel, etc.) It will help users to track their spending and will allow them to see where they are spending the most money each month. 
 
 App Evaluation
 [Evaluation of your app across the following attributes]
@@ -25,17 +25,18 @@ Required Must-have Stories
 User has access to camera roll
 User can take picture of receipts
 User can crop pictures
-An API that extracts certain keywords to
-discern what category it should be placed in
 User can login
 User can create an account
 User can acesss their past receipts
+User can track different categories that their receipts have been placed in
+User can see how much money they are spending each month
 …
 Optional Nice-to-have Stories
 User can analyze multiple receipts at once
-User can 
+User is able to see their friends spending
+User is able to set goals for their spending habits
 
-[fill in your required user stories here]
+
 …
 2. Screen Archetypes
 Login Screen
@@ -78,6 +79,4 @@ Models
 [Add table of models]
 
 Networking
-[Add list of network requests by screen ]
-[Create basic snippets for each Parse network request]
-[OPTIONAL: List endpoints if using existing API such as Yelp]
+Categories Screen will call a custom backend we create through parse that will be able to place the
