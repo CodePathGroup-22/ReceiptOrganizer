@@ -67,7 +67,7 @@ Login =>
 Home Screen
 …
 Wireframes
-[Add picture of your hand sketched wireframes in this section]
+https://i.imgur.com/8RmjiCV.png
 
 
 [BONUS] Digital Wireframes & Mockups
