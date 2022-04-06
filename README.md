@@ -67,7 +67,7 @@ Login =>
 Home Screen
 …
 Wireframes
-https://i.imgur.com/8RmjiCV.png
+img src="https://i.imgur.com/8RmjiCV.png" width=600>
 
 
 [BONUS] Digital Wireframes & Mockups
