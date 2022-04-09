@@ -109,3 +109,5 @@ pastReceipts Screen
 (Delete) Delete past receipt object, will get rid of its data 
 
 
+GIF Progress
+http://g.recordit.co/ofDhI2WZk0.gif
