@@ -25,8 +25,8 @@ Required Must-have Stories
 User has access to camera roll
 User can take picture of receipts
 User can crop pictures
-User can login
-User can create an account
+User can login [X]
+User can create an account [X]
 User can acesss their past receipts
 User can track different categories that their receipts have been placed in
 User can see how much money they are spending each month
