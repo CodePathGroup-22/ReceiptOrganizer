@@ -1,0 +1,6 @@
+framework module Pods_ReceiptOrganizer_ReceiptOrganizerUITests {
+  umbrella header "Pods-ReceiptOrganizer-ReceiptOrganizerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
