@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A13F73280503DC00C4158D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A13F72280503DC00C4158D /* CameraViewController.swift */; };
 		32C5646D27EF940B001461D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5646C27EF940B001461D5 /* AppDelegate.swift */; };
 		32C5646F27EF940B001461D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5646E27EF940B001461D5 /* SceneDelegate.swift */; };
 		32C5647427EF940B001461D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C5647227EF940B001461D5 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		0B2CE16883157A92D83B7FC2 /* Pods-ReceiptOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptOrganizer.release.xcconfig"; path = "Target Support Files/Pods-ReceiptOrganizer/Pods-ReceiptOrganizer.release.xcconfig"; sourceTree = "<group>"; };
+		32A13F72280503DC00C4158D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		32C5646927EF940B001461D5 /* ReceiptOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C5646C27EF940B001461D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32C5646E27EF940B001461D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				32C5647A27EF9414001461D5 /* Info.plist */,
 				52CCB5992803B06C005E83C6 /* CategoriesViewController.swift */,
 				52CCB59B2803B088005E83C6 /* LoginViewController.swift */,
+				32A13F72280503DC00C4158D /* CameraViewController.swift */,
 			);
 			path = ReceiptOrganizer;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CCB59C2803B088005E83C6 /* LoginViewController.swift in Sources */,
+				32A13F73280503DC00C4158D /* CameraViewController.swift in Sources */,
 				32C5646D27EF940B001461D5 /* AppDelegate.swift in Sources */,
 				32C5646F27EF940B001461D5 /* SceneDelegate.swift in Sources */,
 				52CCB59A2803B06C005E83C6 /* CategoriesViewController.swift in Sources */,
