@@ -22,11 +22,11 @@ Product Spec
 1. User Stories (Required and Optional)
 Required Must-have Stories
 
-User has access to camera roll
-User can take picture of receipts
+User has access to camera roll [X] 
+User can take picture of receipts [X]
 User can crop pictures
-User can login
-User can create an account
+User can login [X]
+User can create an account [X]
 User can acesss their past receipts
 User can track different categories that their receipts have been placed in
 User can see how much money they are spending each month
@@ -40,7 +40,7 @@ User is able to set goals for their spending habits
 …
 2. Screen Archetypes
 Login Screen
-  User can log in
+  User can log in 
 Registration Screen
   User can register an account
 Camera Screen
