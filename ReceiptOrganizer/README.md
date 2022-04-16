@@ -76,7 +76,35 @@ Schema
 [This section will be completed in Unit 9]
 
 Models
-[Add table of models]
+Post
+Property	        Type	     Description
+username	       String	         stores user name for login
+password	       String           stores password for login
+image	            File	           image that user posts
+Category         String	        Category holds the specific spending a user made in a certain industry
+createdAt	      DateTime	      date the user posted the receipt
+totalSpending     Int         accumulates all the spending the user has made this month
+categorySpending   Int         accumulates the spending per category
 
 Networking
-Categories Screen will call a custom backend we create through parse that will be able to place the
+loginScreen
+(Create/ loginCredentials) Create and store username and password upon signup
+(Get/ loginCredentials) fetch the username and password when user logs in
+
+categoryScreen
+(Get, ReceiptData) get the data colleced from the receipts and store them
+
+imageScreen
+(Create/Image) user is able to take picture of receipt
+(Save / image) create an object of the image for analysis
+(Create / receiptData) creates receipt data based upon what is collected from images
+
+myExpenses Screen
+(Create, profilePicture) user is able to upload and view their profileImage
+(Get/ receiptData) gets the receipt data in order to view the data organized within each month
+
+pastReceipts Screen
+(Get / image and receiptData) gets the image and associates it with its data so user can view stats
+(Delete) Delete past receipt object, will get rid of its data
+
+GIF PROGRESS
