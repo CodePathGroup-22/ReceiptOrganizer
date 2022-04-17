@@ -16,6 +16,7 @@
 		32C5648427EF9415001461D5 /* ReceiptOrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5648327EF9415001461D5 /* ReceiptOrganizerTests.swift */; };
 		32C5648E27EF9415001461D5 /* ReceiptOrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5648D27EF9415001461D5 /* ReceiptOrganizerUITests.swift */; };
 		32C5649027EF9415001461D5 /* ReceiptOrganizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5648F27EF9415001461D5 /* ReceiptOrganizerUITestsLaunchTests.swift */; };
+		528A3251280BF2B7006E1DD3 /* Camera2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A3250280BF2B7006E1DD3 /* Camera2ViewController.swift */; };
 		52CCB5962803AB64005E83C6 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 52CCB5952803AB64005E83C6 /* AlamofireImage */; };
 		52CCB59A2803B06C005E83C6 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCB5992803B06C005E83C6 /* CategoriesViewController.swift */; };
 		52CCB59C2803B088005E83C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCB59B2803B088005E83C6 /* LoginViewController.swift */; };
@@ -56,6 +57,7 @@
 		32C5648927EF9415001461D5 /* ReceiptOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C5648D27EF9415001461D5 /* ReceiptOrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptOrganizerUITests.swift; sourceTree = "<group>"; };
 		32C5648F27EF9415001461D5 /* ReceiptOrganizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptOrganizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		528A3250280BF2B7006E1DD3 /* Camera2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera2ViewController.swift; sourceTree = "<group>"; };
 		52CCB5992803B06C005E83C6 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		52CCB59B2803B088005E83C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C63CC8314A39659D2AE1AF0 /* Pods-ReceiptOrganizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptOrganizerTests.release.xcconfig"; path = "Target Support Files/Pods-ReceiptOrganizerTests/Pods-ReceiptOrganizerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				32C5646C27EF940B001461D5 /* AppDelegate.swift */,
 				32C5646E27EF940B001461D5 /* SceneDelegate.swift */,
 				32C5647227EF940B001461D5 /* Main.storyboard */,
+				528A3250280BF2B7006E1DD3 /* Camera2ViewController.swift */,
 				32C5647527EF9413001461D5 /* Assets.xcassets */,
 				32C5647727EF9414001461D5 /* LaunchScreen.storyboard */,
 				32C5647A27EF9414001461D5 /* Info.plist */,
@@ -424,6 +427,7 @@
 				32A13F73280503DC00C4158D /* CameraViewController.swift in Sources */,
 				32C5646D27EF940B001461D5 /* AppDelegate.swift in Sources */,
 				32C5646F27EF940B001461D5 /* SceneDelegate.swift in Sources */,
+				528A3251280BF2B7006E1DD3 /* Camera2ViewController.swift in Sources */,
 				52CCB59A2803B06C005E83C6 /* CategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -584,7 +588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
