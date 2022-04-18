@@ -9,13 +9,19 @@ import UIKit
 import AlamofireImage
 import Parse
 
-class CategoriesViewController: UIViewController {
-
+class CategoriesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+    
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        tableView.dataSource = self
+        tableView.delegate = self
         // Do any additional setup after loading the view.
     }
+    
     
     
     @IBAction func onLogoutButton(_ sender: Any) {
@@ -27,6 +33,20 @@ class CategoriesViewController: UIViewController {
         
         delegate.window?.rootViewController = loginViewController
     }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 30
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        
+        return cell
+    }
+    
+    
     
     /*
     // MARK: - Navigation
