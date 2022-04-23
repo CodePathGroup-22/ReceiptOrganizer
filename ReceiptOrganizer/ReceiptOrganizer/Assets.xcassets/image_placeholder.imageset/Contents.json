@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "my expenses_btn-1.png",
+      "filename" : "image_placeholder.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "image_placeholder@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "image_placeholder@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

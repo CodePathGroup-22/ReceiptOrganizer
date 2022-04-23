@@ -1,15 +1,14 @@
 //
-//  CategoriesViewController.swift
+//  DocumentsViewController.swift
 //  ReceiptOrganizer
 //
-//  Created by mac book pro on 4/10/22.
+//  Created by mac book pro on 4/18/22.
 //
 
 import UIKit
-import AlamofireImage
-import Parse
 
-class CategoriesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+class DocumentsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -20,18 +19,6 @@ class CategoriesViewController: UIViewController, UITableViewDataSource, UITable
         tableView.dataSource = self
         tableView.delegate = self
         // Do any additional setup after loading the view.
-    }
-    
-    
-    
-    @IBAction func onLogoutButton(_ sender: Any) {
-        PFUser.logOut()
-        
-        let main = UIStoryboard(name: "Main", bundle: nil)
-        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
-        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else { return }
-        
-        delegate.window?.rootViewController = loginViewController
     }
     
     
@@ -46,8 +33,7 @@ class CategoriesViewController: UIViewController, UITableViewDataSource, UITable
         return cell
     }
     
-    
-    
+
     /*
     // MARK: - Navigation
 
